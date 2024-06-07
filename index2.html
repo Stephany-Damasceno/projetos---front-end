@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Resultados da pesquisa </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+        }
+        h3 {
+            color:#5553E3;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 25px;
+            text-align: center;
+            padding-top: 5px;
+        }
+        h5 {
+            color: #5553E3;
+            text-align: center;
+            padding-top: 9px;
+        }
+        p {
+            color: #5553E3;
+            text-align: center;
+            padding-top: 80px;
+            padding-left: 5px;
+        }
+        a {
+            color: #5553E3;
+            text-align: center;
+            padding-top: 45px;
+            padding-left: 5px;
+        }
+        h4 {
+    color: #5553E3;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.link-container {
+    color: #5553E3;
+    text-align: center;
+    padding-top: 0,1px;
+    padding-left: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+a {
+    color: #5553E3;
+    text-align: center;
+    padding-top: 0,1px;
+    padding-left: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+header{
+    background-color: #f1f1f1;
+}
+h1 {
+    color:#5553E3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+section {
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    gap: 15px;
+    flex-direction: column;
+}
+.search-box {
+    background-color: #ffffff;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    gap: 5px;
+    border: 1px solid #5553E3; 
+}
+.search-box input {
+    height: 100%;
+    width: 83%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-left: 15px;
+    font-family: poppins;
+    color: #5553E3;
+    font-weight: 100; 
+}
+.search-box input::placeholder {
+    font-family: poppins;
+    color: #5553E3;
+    font-weight: 100;
+}
+.search-box button {
+    width: 70px;
+    height: 40px;
+    background-color: #5553E3;
+    border: none;
+    border-radius: 8px;
+    color: #f3f3f3;
+    font-family: poppins; 
+    font-size: 13px;
+    cursor: pointer;
+}
+#searchResults {
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+#searchResults a {
+    font-size: 13px;
+    color:#5553E3;
+    text-decoration: underline;
+}
+.imagem-estilizada {
+    width: 300px; 
+    height: auto; 
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; 
+}
+</style> 
+<header>
+    <h1> World's Database </h1>
+</header>
+<body>
+    <section>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Digite sua pesquisa">
+            <button onclick="redirecionar()"> Buscar </button>
+            <script>
+                function redirecionar() {
+                    window.location.href = 'pesquisa.html';
+                }
+            </script>
+        </div>
+        <div id="searchResults"> </div>
+    </section>
+    <h3> Desculpe. Não temos isso ainda.</h3>
+        <div class="link-container">
+        <ul> <a href="pesquisa.html"> A guerra de Israel e Palestina: entenda o caso </a> </ul>
+        <ul> <img src="c:\Users\TEMP\Downloads\israel.jpg.jpg" class="imagem-estilizada"> </ul>
+        <ul> <a href="pesquisa.html"> Ucrânia e a realidade das guerras </a> </ul>        
+        <ul> <img src="c:\Users\TEMP\Downloads\ucrânia.jpg.jpg" class="imagem-estilizada"> </ul> 
+        <ul> <a href="pesquisa.html"> 10 doramas imperdíveis para maranotar na Netflix! </a> </ul>
+        <ul> <img src="c:\Users\TEMP\Downloads\queenoftears.jpg.jpg" class="imagem-estilizada"> </ul>
+        <ul> <a href="pesquisa.html"> Darwin: como a viagem ao Brasil influenciou a Teoria da Evolução </a> </ul>
+        <ul> <img src="c:\Users\TEMP\Downloads\darwin.jpg.jpg" class="imagem-estilizada"> </ul> 
+</div>
+<footer> <p>&copy;2024 Todos os direitos reservados </p></footer>
+    </body>
+</head>
+</html>

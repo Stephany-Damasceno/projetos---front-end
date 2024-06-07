@@ -1,0 +1,104 @@
+section {
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    gap: 15px;
+    flex-direction: column;
+}
+.search-box {
+    background-color: #ffffff;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    gap: 5px;
+    border: 1px solid #5553E3; 
+}
+.search-box input {
+    height: 100%;
+    width: 83%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-left: 15px;
+    font-family: poppins;
+    color: #5553E3;
+    font-weight: 100; 
+}
+.search-box input::placeholder {
+    font-family: poppins;
+    color: #5553E3;
+    font-weight: 100;
+}
+.search-box button {
+    width: 70px;
+    height: 40px;
+    background-color: #5553E3;
+    border: none;
+    border-radius: 8px;
+    color: #f3f3f3;
+    font-family: poppins; 
+    font-size: 13px;
+    cursor: pointer;
+}
+#searchResults {
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+#searchResults a {
+    font-size: 13px;
+    color:#5553E3;
+    text-decoration: underline;
+}
+body {
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 80vh;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #5553E3;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+footer {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #5553E3;
+}
+h3 {
+    color: #5553E3;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.link-container {
+    color: #5553E3;
+    text-align: center;
+    padding-top: 0,1px;
+    padding-left: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+a {
+    color: #5553E3;
+    text-align: center;
+    padding-top: 0,1px;
+    padding-left: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
